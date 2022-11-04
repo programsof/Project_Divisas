@@ -1,0 +1,10 @@
+Clonar el repositorio
+buscar el archivo .env.example, realizar una copia de este y ponerle el nombre .env
+abrir la terminal, ubicarse en el proyecto y ejecutar composer install
+en la terminal ejecutar el comando php artisan key:generate
+en la terminar ejecutar el comando npm install --legacy-peer-deps
+luego ejecutar el comando npm run dev
+abrir una nueva terminal y ejecutar el comando php artisan serve e ingresar al navegador con la Url dada
+crear una bases de datos con el mismo nombre que aparece en el archivo .env
+en una nueva terminal ejecutar el comando php artisan migrate
+por ultimo ingresar con los datos: Email: jimmyjabrilpjimmy@gmail.com  y password: 123456789
