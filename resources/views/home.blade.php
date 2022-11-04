@@ -13,9 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-
-                    <div class="container-fluid">
+                     <div class="container-fluid">
                         <div class="row moneda form-group">
                           <div class="col-sm-6">
                             <select id="moneda-uno" class="form-control">
@@ -80,21 +78,15 @@
                             id="cantidad-uno" 
                             placeholder="0"  
                             value="1"
-                            >
-                        </div>
-
-                        <div>
+                            ></div>
+                            <div>
                             <button class="btn btn-warning" id="taza">
                                 cambio
                             </button>
                             <span class="badge bg-success cambio" id="cambio"></span>
-                            
-                
                         </div> 
                         </div>
-
-                        
-                            <div class="row moneda form-group">
+                        <div class="row moneda form-group">
                             <div class="col-sm-6">
                                 <select id="moneda-dos" class="form-control">
                                     <option value="AED">AED</option>
@@ -149,46 +141,21 @@
                                     <option value="UYU">UYU</option>
                                     <option value="VND">VND</option>
                                     <option value="ZAR">ZAR</option>
-                    
-                                </select>
-                    
-
-
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input 
+                                    class="form-control"
+                                type="number" 
+                                id="cantidad-dos" 
+                                placeholder="0"  
+                                > 
                             </div>
-                            <div class="col-sm-6">
-                                <input 
-                                class="form-control"
-                            type="number" 
-                            id="cantidad-dos" 
-                            placeholder="0"  
-                            >
-                            </div>
-
-                            
-                          </div>
-                        </div>
-
-                       
-                       
-                       
-                       
-                       
-                       
-                        </div>
                       </div>
-                   
-                    
-                 
+                  </div>
+                 </div>
+                </div>                             
                 </div>
-
-
-
-
-
-
-
-
-
             </div>
         </div>
     </div>
